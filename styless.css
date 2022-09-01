@@ -1,0 +1,123 @@
+body {
+    margin: auto;
+    background-color: hsl(217, 54%, 11%);
+
+}
+
+.container {
+
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.card {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    border-radius: 15px;
+    background-color:hsl(216, 50%, 16%);
+    height: 65%;
+    width: 20%;
+    box-shadow: 15px 13px 13px 11px rgb(13, 20, 43);
+}
+
+#img{
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+
+}
+
+.image {
+    position: relative;
+    left: 2px;
+    top: 20px;
+    height: 45%;
+    width: 85%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.text {
+   
+    width: 90%;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    font-weight: 400;
+
+}
+
+#heading {
+    color: white;
+    font-family: 'Outfit';
+    font-size: 20px;
+    font-weight: 600 ;
+}
+
+#line {
+    font-family: 'Outfit' ;
+    color:hsl(215, 36%, 51%);
+  
+}
+
+#eth {
+    color: cyan;
+    position: relative;
+    top: 10px;
+}
+
+#clk {
+    color: hsl(215, 32%, 52%);
+    position: relative;
+    left: 60%;
+    bottom:28px ;
+}
+
+
+span {
+    color: aliceblue;
+}
+
+hr {
+    width: 95%;
+    height: 2%;
+    position: relative;
+    right: 2%;
+    bottom: 30px;
+    border-style: inset;
+    border-color: hsl(215, 32%, 52%);
+
+}
+
+.last-line  {
+    position: relative;
+    bottom: 30px;
+    float: left;
+    width: 10%;  
+    background-color: aliceblue;
+    border-radius: 30px;
+  
+}
+
+.last-line .images {
+    height: 100%;
+    width: 98%;
+    border-color: antiquewhite;
+    position: relative;
+    top: 2px;
+    left: .1px;   
+    
+}
+
+#last  {
+
+    color:  hsl(215, 32%, 52%);
+    position: relative;
+    left: 5%;
+    bottom: 25px;
+    font-weight: 300;
+    font-size: 13px;
+    
+  }
